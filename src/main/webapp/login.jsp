@@ -11,9 +11,9 @@
     <title>Title</title>
 </head>
 <body>
-    <form action="/login" method="post">
+    <form action="/create" method="post">
         <input type="text" name="username">
-        <input type="text" name="password">
+        <input type="text" name="age">
         <input type="submit">
     </form>
 </body>

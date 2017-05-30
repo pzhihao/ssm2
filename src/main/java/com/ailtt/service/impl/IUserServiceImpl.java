@@ -20,4 +20,10 @@ public class IUserServiceImpl implements IUserService {
     public List<User> getAllUser() {
         return userMapper.selectAll();
     }
+
+    public void insert(User user) {
+        userMapper.insert(user);
+    }
+
+
 }

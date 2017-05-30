@@ -11,5 +11,6 @@ import java.util.List;
 public interface IUserService {
 
     List<User> getAllUser();
+    void insert(User user);
 
 }
