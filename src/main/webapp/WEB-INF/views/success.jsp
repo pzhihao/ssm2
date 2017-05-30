@@ -1,3 +1,4 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jstl/core_rt" %>
 <%--
   Created by IntelliJ IDEA.
   User: pengzhihao
@@ -12,6 +13,23 @@
 </head>
 <body>
 success
-${msg}
+
+<table border="1">
+    <tr>
+        <td>姓名</td>
+        <td>年龄</td>
+    </tr>
+
+    <c:forEach var="item" items="${requestScope.list}">
+        <tr>
+            <td>${item.name}</td>
+            <td>${item.age}</td>
+        </tr>
+    </c:forEach>
+
+</table>
+
+
+
 </body>
 </html>
