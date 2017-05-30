@@ -28,8 +28,5 @@ success
     </c:forEach>
 
 </table>
-
-
-
 </body>
 </html>
